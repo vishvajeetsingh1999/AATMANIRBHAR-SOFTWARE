@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Aatmnirbhar</title>
+  </head>
+  <body>
+      <h1 style="font-family: 'Times New Roman', Times, serif; color: black; text-align: center ; margin-top: 50px; "> <u>AATMANIRBHAR SOFTWARE</u> </h1>
+  
+<div class="container">
+    <div class="row  mt-5" style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 30px; color:black;">
+        <div class="col-md-4 col-12">
+            <p>Upper Case</p>
+            <input id="don" type="text"> <br>
+            <button class='btn btn-success' onclick="UpperCase()">Convert</button>
+        </div>
+
+        <div class="col-md-4 col-12 ">
+            <p>Lower Case</p>
+            <input id="sam" type="text">
+            <button class='btn btn-success' onclick="Lowercase()">Convert</button>
+          
+        </div>
+
+        <div class="col-md-4 col-12">
+            <p>Length</p>
+            <input id="papa" type="text">
+            <button class='btn btn-success' onclick="Length()">Convert</button>
+           
+        </div>
+
+    </div>
+    <div class="row" style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 30px; color:black; margin-top: 100px;">
+        <div class="col-md-6 col-12">
+            <p>Trim</p>
+            <input id="lep" type="text"> <br>
+            <button class='btn btn-success' onclick="Trim()">Convert</button>
+        </div>
+
+       
+
+        <div class="col-md-6 col-12">
+            <p>Charcode</p>
+            <input id="usd" type="text"> <br>
+            <button class='btn btn-success'onclick="Charcode()">Convert</button>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    function UpperCase(){
+        var y = document.getElementById('don').value;
+        var X = y.toUpperCase();
+     document.getElementById('don').value=X;
+    }
+
+    function Lowercase(){
+        var y = document.getElementById('sam').value;
+        var X = y.toLowerCase();
+     document.getElementById('sam').value=X;
+    }
+
+
+
+    function Length(){
+        var y = document.getElementById('papa').value;
+        var X = y.length;
+     document.getElementById('papa').value=X;
+    }
+
+
+
+    function Trim(){
+        var y = document.getElementById('lep').value;
+        var X = y.trim();
+     document.getElementById('lep').value=X;
+    }
+
+
+   
+
+
+    function Charcode(){
+        var y = document.getElementById('usd').value;
+        var X = y.charCodeAt();
+     document.getElementById('usd').value=X;
+    }
+</script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
